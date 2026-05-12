@@ -1,0 +1,31 @@
+{
+  "name": "butterfly-webgl",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "@multiverse-io/stardust": "file:./mv-packages/multiverse-io-stardust-4.0.3.tgz",
+    "@multiverse-io/stardust-react": "file:./mv-packages/multiverse-io-stardust-react-v4.9.1.tgz",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.18",
+    "wouter": "^3.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.16.11",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "typescript": "5.6.3",
+    "vite": "^5.4.19"
+  }
+}

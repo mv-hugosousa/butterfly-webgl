@@ -1,0 +1,13 @@
+@import "@multiverse-io/stardust/stardust-tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background: var(--bg-color-primary);
+}
+
+[data-radix-popper-content-wrapper] {
+  z-index: 100000 !important;
+}
